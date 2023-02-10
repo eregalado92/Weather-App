@@ -1,0 +1,68 @@
+#forecast {
+    position: absolute;
+    left: -3%;
+}
+
+h1 {
+    margin-bottom: 0%;
+    background-image: linear-gradient(to right, rgb(21 85 127), rgb(46 66 108) , rgb(48 38 96));
+}
+ .card {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        word-wrap: break-word;
+        background-color: transparent;
+        background-clip: border-box;
+        
+}
+.card-body {
+    
+    background: #000000d0;
+    color: white;
+    padding: 2em;
+    border-radius: 30px;
+    width: 50%;
+    max-width: 420px;
+    margin: 1em;
+    justify-content: center;
+}
+body {
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background: #222;
+    background-image: url('https://source.unsplash.com/1600x900/?landscape');
+    font-size: 120%;     
+}
+aside.col-lg-3.bg-dark {
+    color: white;
+    border-radius: 4px;
+    background: #000000d0;
+}
+
+input#search-value {
+    background: #000000d0;
+    color: white;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-group {
+    display: flex;
+    flex-direction: column;
+    color: #222;
+}
+
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: 0;
+    color: white;
+    background-color: #222;
+    border:#000000d0
+}
